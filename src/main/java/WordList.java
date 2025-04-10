@@ -20,7 +20,7 @@ public class WordList
 
   public void removeWordsOfLength(int len)
   {
-    Arraylist<String> r = new Arraylist<String>();
+    Arraylist<string> r = new Arraylist<string>();
     for(int i=0; i<myList.length(); i++){
       String word = myList;
       if(word.length()!=len){
